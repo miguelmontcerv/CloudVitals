@@ -29,7 +29,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                 return func.HttpResponse('Error: El campo {} es requerido.'.format(campo), status_code=400)
 
         # Conexión a la base de datos
-        cnx = mysql.connector.connect(user="miguel", password="Ubuntupassword1", host="cloudvitalsdb.mysql.database.azure.com", port=3306, database="cloudvitals", ssl_disabled=False)
+        cnx = mysql.connector.connect(user="miguel", password="***************", host="*************.mysql.database.azure.com", port=3306, database="cloudvitals", ssl_disabled=False)
         cursor = cnx.cursor()
 
         id_zona = generarHash(datos)

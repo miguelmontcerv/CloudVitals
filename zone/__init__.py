@@ -5,7 +5,7 @@ import json
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     if req.method == 'GET':
-        cnx = mysql.connector.connect(user="miguel", password="Ubuntupassword1", host="cloudvitalsdb.mysql.database.azure.com", port=3306, database="cloudvitals", ssl_disabled=False)
+        cnx = mysql.connector.connect(user="miguel", password="***************", host="*************.mysql.database.azure.com", port=3306, database="cloudvitals", ssl_disabled=False)
         cursor = cnx.cursor()
 
         id_zona = req.params.get('id_zona')
