@@ -1,0 +1,194 @@
+[
+  {
+      "tipoCultivo": 1,
+      "tipoPlanta": 1,
+      "tipoFruto": 1,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 1000,
+      "zonaCultivo": 1,
+      "humedadTierra": 0.6,
+      "temperaturaPromedio": 28,
+      "precipitacionZona": 800,
+      "cantidadAgua": 500
+  },
+  {
+      "tipoCultivo": 2,
+      "tipoPlanta": 2,
+      "tipoFruto": 2,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 500,
+      "zonaCultivo": 2,
+      "humedadTierra": 0.7,
+      "temperaturaPromedio": 25,
+      "precipitacionZona": 1200,
+      "cantidadAgua": 400
+  },
+  {
+      "tipoCultivo": 3,
+      "tipoPlanta": 1,
+      "tipoFruto": 1,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 1500,
+      "zonaCultivo": 3,
+      "humedadTierra": 0.5,
+      "temperaturaPromedio": 20,
+      "precipitacionZona": 500,
+      "cantidadAgua": 600
+  },
+  {
+      "tipoCultivo": 4,
+      "tipoPlanta": 2,
+      "tipoFruto": 2,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 800,
+      "zonaCultivo": 1,
+      "humedadTierra": 0.6,
+      "temperaturaPromedio": 25,
+      "precipitacionZona": 600,
+      "cantidadAgua": 300
+  },
+  {
+      "tipoCultivo": 5,
+      "tipoPlanta": 2,
+      "tipoFruto": 2,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 1200,
+      "zonaCultivo": 4,
+      "humedadTierra": 0.7,
+      "temperaturaPromedio": 22,
+      "precipitacionZona": 800,
+      "cantidadAgua": 400
+  },
+  {
+      "tipoCultivo": 6,
+      "tipoPlanta": 1,
+      "tipoFruto": 1,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 2000,
+      "zonaCultivo": 4,
+      "humedadTierra": 0.8,
+      "temperaturaPromedio": 30,
+      "precipitacionZona": 1500,
+      "cantidadAgua": 700
+  },
+  {
+      "tipoCultivo": 7,
+      "tipoPlanta": 2,
+      "tipoFruto": 3,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 900,
+      "zonaCultivo": 5,
+      "humedadTierra": 0.6,
+      "temperaturaPromedio": 15,
+      "precipitacionZona": 1000,
+      "cantidadAgua": 450
+  },
+  {
+      "tipoCultivo": 8,
+      "tipoPlanta": 2,
+      "tipoFruto": 4,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 800,
+      "zonaCultivo": 1,
+      "humedadTierra": 0.6,
+      "temperaturaPromedio": 25,
+      "precipitacionZona": 600,
+      "cantidadAgua": 300
+  },
+  {
+      "tipoCultivo": 9,
+      "tipoPlanta": 1,
+      "tipoFruto": 5,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 700,
+      "zonaCultivo": 1,
+      "humedadTierra": 0.6,
+      "temperaturaPromedio": 22,
+      "precipitacionZona": 500,
+      "cantidadAgua": 350
+  },
+  {
+      "tipoCultivo": 10,
+      "tipoPlanta": 2,
+      "tipoFruto": 6,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 1000,
+      "zonaCultivo": 2,
+      "humedadTierra": 0.7,
+      "temperaturaPromedio": 28,
+      "precipitacionZona": 900,
+      "cantidadAgua": 550
+  },
+  {
+      "tipoCultivo": 11,
+      "tipoPlanta": 2,
+      "tipoFruto": 7,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 600,
+      "zonaCultivo": 1,
+      "humedadTierra": 0.6,
+      "temperaturaPromedio": 20,
+      "precipitacionZona": 400,
+      "cantidadAgua": 250
+  },
+  {
+      "tipoCultivo": 12,
+      "tipoPlanta": 2,
+      "tipoFruto": 7,
+      "usaAbono": 1,
+      "quimicos": {
+          "abono": 1,
+          "fertilizante": 0
+      },
+      "extensionTerritorial": 1500,
+      "zonaCultivo": 2,
+      "humedadTierra": 0.7,
+      "temperaturaPromedio": 25,
+      "precipitacionZona": 1000,
+      "cantidadAgua": 450
+  }
+]

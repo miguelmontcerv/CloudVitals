@@ -1,0 +1,49 @@
+[{
+  "tipoCultivo": 11,
+  "tipoPlanta": 2,
+  "tipoFruto": 7,
+  "usaAbono": 0,
+  "quimicos": {
+      "abono": 1,
+      "fertilizante": 0
+  },
+  "extensionTerritorial": 494,
+  "zonaCultivo": 1,
+  "humedadTierra": 0.574275100976949,
+  "temperaturaPromedio": 17,
+  "precipitacionZona": 406
+}
+,
+{
+  "tipoCultivo": "Maíz",
+  "tipoPlanta": "Monocotiledónea",
+  "tipoFruto": "Grano",
+  "usaAbono": true,
+  "quimicos_abono" : true,
+  "quimicos_fertilizante" : true,
+  "extensionTerritorial": 1000,
+  "zonaCultivo": "Región Central",
+  "humedadTierra": 0.6,
+  "temperaturaPromedio": 28,
+  "precipitacionZona": 800,
+  "cantidadAgua": 500
+}
+
+/////////////
+{
+  "tipoCultivo": "Maíz",
+  "tipoPlanta": "Monocotiledónea",
+  "tipoFruto": "Grano",
+  "quimicos_abono" : true,
+  "quimicos_fertilizante" : true,
+  "extensionTerritorial": 1000,
+  "zonaCultivo": "Región Central",
+  "humedadTierra": 0.6,
+  "temperaturaPromedio": 28,
+  "precipitacionZona": 800,
+  "cantidadAgua": 500
+}
+]
+
+| id_registro| cuenta_zona | id_zona | fecha       | mediciones |
+|     1      |      1      |  sur_1  | 2023-07-19  |[0.6,0.44,0.52,0.6,0.44,0.52,0.6,0.44,0.52,0.43] |
