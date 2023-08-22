@@ -1,0 +1,227 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CloudVitals",
+    "dateExported": "2023-08-22T04:09:03.692Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b27256a2-0559-4dd3-8c98-2ebc3535a3ff",
+            "colId": "0bb662ae-613d-4810-a8b9-54e49c87822f",
+            "containerId": "",
+            "name": "Predictor",
+            "url": "http://20.10.44.153:8080/predict",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-27T01:55:28.659Z",
+            "modified": "2023-07-31T03:08:36.819Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"tipoCultivo\": 2,\n  \"tipoPlanta\": 2,\n  \"tipoFruto\": 7,\n  \"usaAbono\": 0,\n  \"quimicos_abono\": 1,\n  \"quimicos_fertilizante\": 0,\n  \"extensionTerritorial\": 12,\n  \"zonaCultivo\": 1,\n  \"humedadTierra\": 0.9,\n  \"temperaturaPromedio\": 17,\n  \"precipitacionZona\": 406\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cb90255f-d919-402a-90bd-4b4e5fb0d0ed",
+            "colId": "0bb662ae-613d-4810-a8b9-54e49c87822f",
+            "containerId": "",
+            "name": "Registro",
+            "url": "https://cloudvitals.azurewebsites.net/api/signin",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-07-27T01:55:55.902Z",
+            "modified": "2023-07-27T01:55:55.902Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"tipoCultivo\": \"Chile\",\n  \"tipoPlanta\": \"Monocotiledónea\",\n  \"tipoFruto\": \"Grano\",\n  \"quimicos_abono\": true,\n  \"quimicos_fertilizante\": true,\n  \"extensionTerritorial\": 1000,\n  \"zonaCultivo\": \"Región Central\",\n  \"humedadTierra\": 0.6,\n  \"temperaturaPromedio\": 28,\n  \"precipitacionZona\": 800\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cce31f56-d121-4506-93fe-a6d7b3bc6db7",
+            "colId": "0bb662ae-613d-4810-a8b9-54e49c87822f",
+            "containerId": "",
+            "name": "post registry",
+            "url": "https://cloudvitals.azurewebsites.net/api/registry?id_zona=754a4e8454b7d076a33da40531e967c8af5112de9a5bb8b0b15c005bf8a68690",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-07-27T02:45:47.112Z",
+            "modified": "2023-08-19T18:52:18.057Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "id_zona",
+                    "value": "754a4e8454b7d076a33da40531e967c8af5112de9a5bb8b0b15c005bf8a68690",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cuenta_zona\" : 1,\n  \"mediciones\" : \"[525, 530, 529, 549, 526, 527, 528, 541, 539, 535]\",\n  \"variable\" : \"Precipitacion de la Zona\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a44e4327-9059-48ba-b724-8c0f562f290e",
+            "colId": "0bb662ae-613d-4810-a8b9-54e49c87822f",
+            "containerId": "",
+            "name": "get registry",
+            "url": "https://cloudvitals.azurewebsites.net/api/registry?id_zona=11ddef3a9257a12692a006fc211ee90b47191d6498e05a130f6f1123d534c030&num=2&variable=Precipitacion de la Zona",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-07-27T04:05:54.502Z",
+            "modified": "2023-08-16T19:52:42.088Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "id_zona",
+                    "value": "11ddef3a9257a12692a006fc211ee90b47191d6498e05a130f6f1123d534c030",
+                    "isPath": false
+                },
+                {
+                    "name": "num",
+                    "value": "2",
+                    "isPath": false
+                },
+                {
+                    "name": "variable",
+                    "value": "Precipitacion de la Zona",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "2a5111f6-4cc9-4ca3-b795-1e54d4700998",
+            "colId": "0bb662ae-613d-4810-a8b9-54e49c87822f",
+            "containerId": "",
+            "name": "Get Zone Info",
+            "url": "https://cloudvitals.azurewebsites.net/api/zone?id_zona=e08f590bc7c1fb65572c174affb4a1dfcfa4d40bfc1775917447b17b15ed78e5",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-07-29T20:36:51.333Z",
+            "modified": "2023-08-01T03:26:43.772Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "id_zona",
+                    "value": "e08f590bc7c1fb65572c174affb4a1dfcfa4d40bfc1775917447b17b15ed78e5",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6e66c42c-077f-4ef7-903e-95dbee4c6860",
+            "colId": "0bb662ae-613d-4810-a8b9-54e49c87822f",
+            "containerId": "",
+            "name": "predict interface",
+            "url": "https://cloudvitals.azurewebsites.net/api/predict?id_zona=754a4e8454b7d076a33da40531e967c8af5112de9a5bb8b0b15c005bf8a68690",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-07-31T02:52:02.537Z",
+            "modified": "2023-08-19T19:36:09.346Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id_zona",
+                    "value": "754a4e8454b7d076a33da40531e967c8af5112de9a5bb8b0b15c005bf8a68690",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "b2572824-dfd2-41ab-97d4-a794eb0155ad",
+            "colId": "0bb662ae-613d-4810-a8b9-54e49c87822f",
+            "containerId": "",
+            "name": "sign in",
+            "url": "https://cloudvitals.azurewebsites.net/api/signin",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-07-31T02:52:27.752Z",
+            "modified": "2023-08-01T02:24:14.221Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"tipoCultivo\": \"Tomates\",\n  \"tipoPlanta\": \"Monocotiledónea\",\n  \"tipoFruto\": \"Hortaliza\",\n  \"quimicos_abono\": true,\n  \"quimicos_fertilizante\": true,\n  \"extensionTerritorial\": 1200,\n  \"zonaCultivo\": \"Región Central\",\n  \"humedadTierra\": 0.6,\n  \"temperaturaPromedio\": 28,\n  \"precipitacionZona\": 800\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
